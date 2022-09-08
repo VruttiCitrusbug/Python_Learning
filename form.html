@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="form.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Registration form</h2>
+  <form action="">
+    <div class="row">
+        <div class="col-md-6">
+
+            <div class="mb-3 mt-3">
+                <label for="name">First Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Your Name" name="name">
+              </div>
+              <div>
+                <span id="nameerr">
+
+                </span>
+              </div>
+              <!-- valid-feedback -->
+        </div>
+        <div class="col-md-6">
+
+            <div class="mb-3 mt-3">
+              <label for="surname">Last Name:</label>
+              <input type="text" class="form-control" id="surname" placeholder="Enter Your Name" name="surname">
+            </div>
+        </div>
+        <div>
+          <span id="surnameerr">
+
+          </span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+
+            <div class="mb-3 mt-3">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+        </div>
+        <div>
+          <span id="emailerr">
+
+          </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            Gender:
+            <label class="radio-inline">
+                <input type="radio" name="gender">Male
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="gender">Female
+              </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="mb-3">
+                <label for="phno">Phone number:</label>
+                <input type="tel" class="form-control" id="phno" placeholder="Enter password" name="phno">
+              </div>
+        </div>
+        <div>
+          <span id="phnoerr">
+
+          </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+
+            <div class="mb-3">
+              <label for="pass">Password:</label>
+              <input type="password" class="form-control" id="pass" placeholder="Enter password" name="pass">
+            </div>
+            <div>
+              <span id="passerr">
+    
+              </span>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+            <div class="mb-3">
+              <label for="confirm">Confirm Password:</label>
+              <input type="password" class="form-control" id="confirm" placeholder="Enter password" name="confirm">
+            </div>
+            <div>
+              <span id="confpasserr">
+    
+              </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" id="showpass" type="checkbox" name="show"> Show password
+              </label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="form-floating mb-3 mt-3">
+          <select class="form-select" id="sel1" name="sellist">
+            <option>Gujrat</option>
+            <option>Mumbai</option>
+            <option>Andhra Pradesh</option>
+            <option>Pune</option>
+            <option>Delhi</option>
+            <option>Goa</option>
+          </select>
+          <label for="sel1" class="form-label">State:</label>
+        </div>
+      </div>
+    </div>
+    <button type="submit" id="sub" class="btn btn-primary">Submit</button>
+  </form>
+  <script src="form.js"></script>
+</div>
+
+</body>
+</html>
