@@ -1,0 +1,41 @@
+body{
+    background-image: url('/img/pattern-home-bg.svg');
+    background-size: cover;
+}
+.container{
+    border: 2px solid black;
+}
+.logo{
+    height: 30px;
+    width: 110px;
+}
+.pb{
+    padding-left: 100px;;
+}
+#login{
+    background-color: rgb(255, 123, 0);
+    width: 200px;
+}
+#login:hover{
+    box-shadow: 0.1px 3px rgb(255, 123, 0);
+}
+.row{
+    border: 2px solid red;
+}
+#home-banner{
+    height: 400px;
+    width: 700px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.big{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.content{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.grtxt{
+    color: rgb(122, 182, 31);
+}
