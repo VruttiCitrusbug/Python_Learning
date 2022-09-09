@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1240px) {
+    #resno{
+        display: none;
+    }
+    .smnav{
+        display: block !important;
+        background-color: white;
+        width: 100vw !important;
+    }
+    .pos{
+        width: 100vw;
+    }
+    .gap{
+        display: none !important;
+    }
+    .fbg{
+        width: 100vw !important;
+    }
+    .but3{
+        margin-top:10px;;
+        width: 100vw !important;
+    }
+    #email,#pwd{
+        width: 100vw;
+    }
+    .imgfr{
+        margin: 0px;
+        padding: 0px;
+        width: max-content;
+    }
+    #email-media{
+        padding: 0px;
+    }
+    .order{
+        order: 2;
+    }
+  }
+  @media only screen and (max-width: 1190px){
+    #home-banner{
+        margin: 0px !important;
+        display: block !important;
+    }
+
+  }
