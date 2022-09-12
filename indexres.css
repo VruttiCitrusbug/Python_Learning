@@ -1,44 +1,235 @@
-@media only screen and (max-width: 1240px) {
-    #resno{
-        display: none;
+@media only screen and (max-width: 800px) {
+    html{
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    .smnav{
-        display: block !important;
-        background-color: white;
-        width: 100vw !important;
+    .padd3{
+        margin:0px;
     }
-    .pos{
-        width: 100vw;
-    }
-    .gap{
+    .gap {
         display: none !important;
     }
-    .fbg{
-        width: 100vw !important;
+    .rescb {
+        display: block;
+        width: 70vw;
     }
-    .but3{
-        margin-top:10px;;
-        width: 100vw !important;
-    }
-    #email,#pwd{
+
+    .content,
+    .big,
+    .smtxt {
+        display: block;
         width: 100vw;
     }
-    .imgfr{
+
+    .big {
+        font-size: 30px;
+    }
+
+    .smtxt {
+        font-size: 25px;
+    }
+
+    .resmarb,
+    .but1,
+    .but2 {
+        /* margin: 0px;
+        padding: 0px; */
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .rf{
+        display: block !important;
+    }
+    .reshimg {
+        display: block;
+        width: 100vw;
+    }
+    .eff2{
+        margin-left: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .dn{
+        display: none;
+    }
+
+    #home-banner {
+        width: inherit;
+        height: inherit;
+    }
+
+    .imgamp {
+        width: 370px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+    .imgbelow{
+        padding-left: 2px;
+        /* padding-right: 0px; */
+        padding-top: 140px;
+        width: 180px;
+    }
+    .smgtxt{
+        font-size: 25px;
+    }
+    .conimg,.belowtxt{
+        font-size: 25px !important;
+    }
+    .lefttxt{
+        font-size: 30px;
+    }
+    .lefttxt2{
+        font-size: 28px;
+    }
+    #email,#pwd{
+        height: 60px;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .but3{
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .btn4{
+        width: 250px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .bigest{
+        font-size: 35px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .smtxt4{
+        font-size: 25px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .belowtxt, .canimg{
+        font-size: x-large;
+    }
+    #email-media{
+        padding-left: 0px;
+        height: inherit;
+        width: 100vw;
+    }
+    /* .container-fluid{
+        padding: 0px;
+        margin: 0px;
+    } */
+    .grtxt{
+        font-size: 25px !important;
+    }
+    .r7 {
+        display: block;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+
+    .smnav {
+        display: block !important;
+        background-color: white;
+        /* width: 100vw !important; */
+    }
+
+    .pos {
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .fbg {
+        width: 100vw !important;
+    }
+
+    .imgfr {
         margin: 0px;
         padding: 0px;
         width: max-content;
     }
-    #email-media{
+
+    #email-media {
         padding: 0px;
     }
-    .order{
+
+    .order {
         order: 2;
     }
-  }
-  @media only screen and (max-width: 1190px){
-    #home-banner{
-        margin: 0px !important;
+
+    .content2 {
+        margin: 0;
+        width: 100vw;
+    }
+
+    .con {
+        margin: 0px;
+        width: 100vw;
+    }
+
+    .pg3con {
         display: block !important;
     }
 
-  }
+    .smtxt {
+        display: block;
+    }
+
+
+    .grtxt,
+    .bigest,
+    .smtxt4 {
+        display: block;
+        width: 100vw;
+    }
+
+    .imgfr2 {
+        width: 100vw;
+        height: max-content;
+    }
+
+    .imgfr3,.imgfr4,.imgfr5{
+        width: 80vw;
+        height: max-content;
+        display: block;
+    }
+    .imgfr4{
+        margin: 0px;
+    }
+    .smtxt4b{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    #home-banner {
+        margin: 0px !important;
+        display: block !important;
+    }
+    #resno {
+        display: none !important;
+    }
+    .smnav{
+        display: flex;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+    #email-media{
+
+        padding-left: 0;
+    }
+    .container{
+        display: block !important;
+        margin: 0px;
+        padding: 0px;
+    }
+}
